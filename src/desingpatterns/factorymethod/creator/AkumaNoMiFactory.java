@@ -1,6 +1,6 @@
-package onepiece.creator;
+package desingpatterns.factorymethod.creator;
 
-import onepiece.product.AkumaNoMi;
+import desingpatterns.factorymethod.product.AkumaNoMi;
 
 public abstract class AkumaNoMiFactory {
 

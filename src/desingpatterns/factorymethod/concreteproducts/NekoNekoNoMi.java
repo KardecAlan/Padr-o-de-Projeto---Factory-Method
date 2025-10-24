@@ -1,6 +1,6 @@
-package onepiece.concreteproducts;
+package desingpatterns.factorymethod.concreteproducts;
 
-import onepiece.product.AkumaNoMi;
+import desingpatterns.factorymethod.product.AkumaNoMi;
 
 public class NekoNekoNoMi implements AkumaNoMi {
 

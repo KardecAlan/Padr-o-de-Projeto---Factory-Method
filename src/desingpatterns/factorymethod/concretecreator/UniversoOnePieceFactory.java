@@ -1,10 +1,10 @@
-package onepiece.concretecreator;
+package desingpatterns.factorymethod.concretecreator;
 
-import onepiece.creator.AkumaNoMiFactory;
-import onepiece.concreteproducts.GomuGomuNoMi;
-import onepiece.concreteproducts.MeraMeraNoMi;
-import onepiece.concreteproducts.NekoNekoNoMi;
-import onepiece.product.AkumaNoMi;
+import desingpatterns.factorymethod.creator.AkumaNoMiFactory;
+import desingpatterns.factorymethod.concreteproducts.GomuGomuNoMi;
+import desingpatterns.factorymethod.concreteproducts.MeraMeraNoMi;
+import desingpatterns.factorymethod.concreteproducts.NekoNekoNoMi;
+import desingpatterns.factorymethod.product.AkumaNoMi;
 
 public class UniversoOnePieceFactory extends AkumaNoMiFactory {
 

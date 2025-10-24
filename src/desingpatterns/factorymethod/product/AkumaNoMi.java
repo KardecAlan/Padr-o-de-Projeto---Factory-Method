@@ -1,4 +1,4 @@
-package onepiece.product;
+package desingpatterns.factorymethod.product;
 
 public interface AkumaNoMi {
 

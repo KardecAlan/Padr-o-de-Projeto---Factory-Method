@@ -1,12 +1,12 @@
-package onepiece.cliente;
+package desingpatterns.factorymethod.cliente;
 
-import onepiece.product.AkumaNoMi;
-import onepiece.creator.AkumaNoMiFactory;
-import onepiece.concretecreator.UniversoOnePieceFactory;
+import desingpatterns.factorymethod.product.AkumaNoMi;
+import desingpatterns.factorymethod.creator.AkumaNoMiFactory;
+import desingpatterns.factorymethod.concretecreator.UniversoOnePieceFactory;
 
 
 public class OnePiece {
-    public static void main(String[] args) throws IllegalAccessException {
+    static void main() throws IllegalAccessException {
         AkumaNoMiFactory factory = new UniversoOnePieceFactory();
 
         AkumaNoMi frutaLogia = factory.criarAkumaNoMiType("LOGIA");
